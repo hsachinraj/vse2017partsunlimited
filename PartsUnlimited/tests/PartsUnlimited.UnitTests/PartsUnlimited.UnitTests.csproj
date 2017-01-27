@@ -113,14 +113,14 @@
     <Compile Include="Utils\OrdersQueryTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\src\PartsUnlimitedWebsite\PartsUnlimitedWebsite.csproj">
       <Project>{68411661-4b0c-444a-bc13-2182fbb116b9}</Project>
       <Name>PartsUnlimitedWebsite</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
