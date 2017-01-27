@@ -499,7 +499,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CommunityPost.cs" />
+    <Compile Include="Models\ILineItem.cs" />
     <Compile Include="Models\OrderCostSummary.cs" />
+    <Compile Include="Utils\DefaultShippingTaxCalculator.cs" />
+    <Compile Include="Utils\EmptyTelemetryProvider.cs" />
+    <Compile Include="Utils\IShippingTaxCalculator.cs" />
     <Compile Include="Utils\LayoutDataAttribute.cs" />
     <Compile Include="Utils\PartsUnlimitedDbInitializer.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -535,6 +539,7 @@
     <Compile Include="Utils\IRaincheckQuery.cs" />
     <Compile Include="Utils\ITelemetryProvider.cs" />
     <Compile Include="Utils\OrdersQuery.cs" />
+    <Compile Include="Utils\PartsUnlimitedTelemetryInitializer.cs" />
     <Compile Include="Utils\RaincheckQuery.cs" />
     <Compile Include="Utils\TelemetryProvider.cs" />
     <Compile Include="ViewModels\AlbumData.cs" />
