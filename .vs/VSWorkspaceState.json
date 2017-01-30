@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PartsUnlimited"
+    "\\PartsUnlimited",
+    "\\PartsUnlimited\\src",
+    "\\PartsUnlimited\\src\\PartsUnlimitedWebsite",
+    "\\PartsUnlimited\\src\\PartsUnlimitedWebsite\\Migrations",
+    "\\PartsUnlimited\\tests"
   ],
   "SelectedNode": "\\PartsUnlimited\\PartsUnlimited.sln",
   "PreviewInSolutionExplorer": false
